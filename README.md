@@ -30,8 +30,5 @@ Blinkit-PowerBI-Dashboard/
 ├── README.md
 └── screenshots/
     ├── dashboard-overview.png
-    ├── kpi-section.png
-    ├── category-analysis.png
-    ├── city-analysis.png
 
 
