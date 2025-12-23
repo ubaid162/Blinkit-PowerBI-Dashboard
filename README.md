@@ -1,34 +1,26 @@
-# Blinkit-PowerBI-Dashboard
-Power BI Sales &amp; Performance Dashboard analyzing Blinkit’s revenue, orders, customer ratings, and category trends.
+### 1. Blinkit Sales Dashboard
+**Business Context**: E-grocery platform needs to track sales performance, customer ratings, and outlet efficiency.
 
-### Key Features
-* Sales & revenue overview
-* Average rating & customer insights
-* Category-level performance analysis
-* City-wise demand mapping
-* Top/low performing items
-* Time-based trend analysis
-* Interactive slicers & drill-through
+**KPIs Tracked**:
+- Total Sales (₹1.20M)
+- Average Rating (3.9/5)
+- Number of Items Sold (8523)
+- Average Sales per Order
 
-### Tools & Technologies Used
-* Power BI
-* DAX (Data Analysis Expressions)
-* Power Query (ETL)
-* Excel
-* Data Modeling
+**Key Features**:
+- Sales by outlet location (Tier 1/2/3 cities)
+- Category-wise revenue breakdown
+- Outlet size vs performance analysis
+- Time-based sales trends
+- Interactive slicers for filtering
 
-### Dashboard Insights
-* Certain categories contribute the highest revenue.
-* Few cities have significantly higher order volume.
-* Ratings impact customer buying patterns.
-* Identified low-performing categories for improvement.
+**DAX Measures Created**:
+- Total Revenue = SUM(Sales[Amount])
+- Average Rating = AVERAGE(Sales[Rating])
+- Sales Growth = (Current Month - Previous Month) / Previous Month
 
-### Repository Structure
-Blinkit-PowerBI-Dashboard/
-│
-├── Blinkit_Dashboard.pbix
-├── README.md
-└── screenshots/
-    ├── dashboard-overview.png
-
-
+**Business Insights**:
+- Tier 1 cities generate 45% of revenue
+- Fruits & Vegetables category highest volume
+- Medium-sized outlets most profitable
+- Peak sales during weekends
